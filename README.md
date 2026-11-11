@@ -21,3 +21,9 @@
 - `release-notes.md`：本次更新说明。
 
 固定更新地址：[latest.json](https://github.com/leilei0620/courseflow-updates/releases/latest/download/latest.json)。
+
+## 识题服务
+
+0.2.0 正式版已接入内测的识题、会员与次数模板。学习通登录与课序服务账号独立；已有内测服务账号可在正式版登录，同一云端账号的权益和权限共用。管理员继续使用公网管理员版，无须同一 Wi-Fi。
+
+当前服务为演示 AI、演示支付；真实识题需要管理员配置支持图片的模型并开启真实调用，提供商 API Key 仅保存在服务端。此 GitHub 仓库不保存账号、登录令牌、图片或 API Key。
